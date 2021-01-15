@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1st Project - 100Days</title>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/index.js">
+    <link rel="stylesheet" href="/images">
+</head>
+<body>
+      <div class="header-container">
+      <header>
+        <bd>iPhone 8 Pro</bd>
+
+    <nav>
+        <b class="mobileMenu" id="mobileMenu" onclick="clickMe()">
+           <b>MENU</b> </b>
+       <ul class="show-desktop close-mobile" id="nav">
+       <li class="hide-btn" id="hide-btn" onclick="hideMe()">
+           <b>X</b></a></li>
+
+           <li><a href="#">Home</a></li>
+           <li><a href="#">Buy</a></li>
+           <li><a href="#">Specs</a></li>
+           <li><a href="#">Reviews</a></li>
+           <li><a href="#">Pricing</a></li>
+           <li><button class="btn"><a href="#">Contact Us</a></button></li>
+       <form class="search-nav">
+       <input type="search" placeholder="Search keywords here" id="search" name="search" class="search-header"><button type="submit" class="sub-head">Go!</button>
+       </form>
+       </ul>
+    
+    </nav>
+    </header>
+    </div>
+    <!--Section 1-->
+    <div class="hero">
+       <img src="images/iPhone 8 Specs.PNG" alt="iPhone 8 Image" style="width:50%;height:50%;" class="hero-image">
+          <h2 class="hero-title">Buy Your <mark>iPhone 8 Pro</mark> With Confidence...</h2>
+            <p class="hero-subtitle">Facere eligendi ipsam quidem minus! Molestias, perferendis incidunt mollitia tempore quis modi corrupti quibusdam atque numquam est. Aliquid sapiente praesentium, suscipit architecto atque mollitia delectus odio error reiciendis dolorum sint.</p>
+                <a href="#reasons"> <img src="images/scroll-down.png" alt="Scroll Down" class="scroll-img"> </a>
+    </div>
+
+   <!--Section 2-->
+    <div class="container-1" id="reasons">
+       <ul class="features">
+         <li>  
+              <img src="images/icon-diet-chart-colored.png" alt="Diet">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere optio cumque recusandae deserunt, repellat doloremque aliquid labore ex adipisci dolores.</p>
+         </li>
+         
+         <li>  
+              <img src="images/icon-drinks-nutrition-colored.png" alt="Drink">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere optio cumque recusandae deserunt, repellat doloremque aliquid labore ex adipisci dolores.</p>
+         </li>
+
+         <li>  
+              <img src="images/icon-heartpin-nutrition-colored.png" alt="Nutrition">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere optio cumque recusandae deserunt, repellat doloremque aliquid labore ex adipisci dolores.</p>
+         </li>
+
+       </ul>
+    
+    
+    </div>
+
+    <!--Section 3-->
+    <div class="container-2">
+    <h2 id="testimonial-head">Not to brag, our esteem customers are happy..</h2>
+        <ul>
+           <li>
+                <figure>
+              <img src="images/tosinpic-removebg-preview.png" alt="Gbolagde Tosin" class="testimonial-image">
+               <blockquote class="testimonial-words">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita iusto suscipit quod mollitia, ab similique.</blockquote>
+                  <figcaption class="testimonial-author">- Stephen Gbolagade</figcaption>
+                  </figure>
+           </li>
+
+           <li>
+               <figure>
+              <img src="images/gaby.jpg" alt="Gabby Lee" class="testimonial-image">
+               <blockquote class="testimonial-words">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita iusto suscipit quod mollitia, ab similique.</blockquote>
+                  <figcaption class="testimonial-author">- Gabby Lee</figcaption>
+                  </figure>
+           </li>
+             
+        
+        </ul>
+    </div>
+
+    <!--Section 4-->
+      <div class="call-to-action">
+        <h2 class="cta-text">Buy iPhone 8 Pro With Confidence Today!</h2>
+       <a href="#"> <button class="btn cta-button">Shop Here</button></a>
+      
+      </div>
+
+    <!--Section 5-->
+     <footer>
+       <div class="footer-container">
+           <a href="#"> <h3 class="footer-logo">iPhone 8 Pro</h3>  </a>
+           <p class="address">179, Ilesha - Osun State, Nigeria<br>Tel: 080 6886 6068</p>
+
+           <ul class="footer-pages">
+             <li>
+             <a href="#">About us</a>
+             </li>
+
+             <li>
+             <a href="#">Contact Us</a>
+             </li>
+
+             <li>
+             <a href="#">Products</a>
+             </li>
+           </ul>
+       </div>
+       <ul class="footer-social">
+          <li> <a href="fb.com/solgade"><i class="fa fa-facebook"></i></a>
+          
+          </li>
+       
+       </ul>
+     </footer>
+     <p class="otf">&copy; 2020 | All Right Reserved | Designed by <a href="https://gbolabyte.com">GbolaByte</a></p>
+
+<script>
+
+ function clickMe() {
+  var menu = document.getElementById("nav");
+
+if (menu.style.display = "none") {
+    menu.style.display = "block";
+}  
+
+else { menu.style.display = "none";}
+
+} 
+
+function hideMe() {
+  var menu = document.getElementById("nav");
+
+if (menu.style.display = "none") {
+    menu.style.display = "none";
+}  
+
+else { menu.style.display = "none";}
+
+} 
+
+
+
+/*var menu = document.getElementById("mobileMenu");
+var nav = document.getElementById("nav");
+var close = document.getElementById("hide-btn");
+
+mobileMenu.addEventListener("click", function(e) {
+     nav.classList.toggle(close-mobile);
+});*/
+
+</script>
+
+</body>
+</html>
+
